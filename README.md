@@ -1,8 +1,8 @@
 # All-Out-on-Regression
-In this dataset i selected a complex regression dataset and tried to increase accuracy as much as possible at starting i use ANN and then i used Supervised ML using AutoML
+In this dataset i selected a complex regression dataset and tried to increase accuracy as much as possible at starting i use ANN and using `KerasTuner` on ANN, then i used Supervised ML using AutoML
 
 There were 17 model tried using ANN and AutoML and the best model was of supervised ML using
-H2o for AutoML and the best model was StackedEnsemble, ANN was close by
+H2o for AutoML and the best model was `StackedEnsemble`, ANN was close by
 
 1. After importing the data i observed that there were too many categorical columns so i decided to keep those columns only which have less no. of category, but almost all of the columns were having proper no. of category.
 
@@ -27,3 +27,5 @@ H2o for AutoML and the best model was StackedEnsemble, ANN was close by
     2. Data scaling
     3. Regularization
     4. Weight Initialization
+    5. Batch Normalization
+    6. Dropout
